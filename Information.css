@@ -1,0 +1,222 @@
+/* + * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}*/
+a{
+  text-decoration: none;
+}
+.Banner{
+  display: flex;
+  height: 120px;
+  width: 100%;
+  /*background-color: cornflowerblue;*/
+  filter: drop-shadow(0px 3px 2px rgba(0, 0, 0, 0.161));
+  border-bottom: 2px solid;
+  border-color: rgb(112, 112, 112);
+  
+}
+.logo{
+  display: block;
+  width: 120px;
+  height: 120px;
+  /*background-color: brown;*/
+}
+li{
+  font-size:30px;
+  width: auto;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+}
+ul{
+  display: flex;
+  list-style: none; 
+  flex-direction: row;
+  justify-content: space-around;
+  height: 120px;
+ 
+  
+}
+.list{
+  height: 120px;
+  width: 1000px;
+}
+#Rectangle {
+  opacity: 0.243;
+}
+.Rectangle {
+  filter: drop-shadow(0px 3px 2px rgba(0, 0, 0, 0.161));
+  position: absolute;
+  overflow: visible;
+  width: 1926px;
+  height: 126px;
+  left: 0px;
+  top: 0px;
+}
+.Les_BOX{
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+    height: 1700px;
+}
+.Box1{
+  display: flex;
+  filter: drop-shadow(5px 5px 1px rgba(0, 0, 0, 0.161));
+  width: 1000px;
+  height: 500px;
+  background: linear-gradient(#F6C557, #F68657);
+  margin: 35px ;
+  border-radius: 30px;
+  align-items: center;
+}
+.boxImage{
+  display: flex;
+  height: 500px;
+  width: 500px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.imageGauche1
+{   
+    width: 400px;
+    height: 200px;
+    /*background-repeat: no-repeat;*/
+    background-image:url("400x200.png") ;
+    
+
+}
+
+.Box2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  align-items: center;
+  filter: drop-shadow(5px 5px 1px rgba(0, 0, 0, 0.161));
+  width: 1000px;
+  height: 500px;
+  background:linear-gradient(#F68857,#7B2C6C);
+  margin: 35px ;
+  border-radius: 30px;
+  
+}
+.boxText{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    font-size: 25px;
+    width: 400px;
+    height: 500px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.boxImage2{
+  height: 200px;
+  width: 400px;
+  background-image:url("metier.png") ;
+}
+
+.Box3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    filter: drop-shadow(5px 5px 1px rgba(0, 0, 0, 0.161));
+    width: 1000px;
+    height: 500px;
+    background:linear-gradient(#F68D57,#7B2C2C);
+    margin: 35px ;
+    border-radius: 30px;
+}
+.imageGauche2
+{
+  width: 350px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-image:url("350x200messages.png") ;
+
+}
+@media screen and (max-width:299px){
+  .Box1{
+    height: 500px;
+    width: 700px;
+    
+  }
+  .imageGauche1{
+    background-image: url('350x200-meet.png');
+  }
+   .textDroite{
+    font-size: 15px;
+  }
+  .Box2{
+    height: 500px;
+    width: 700px;
+  }
+  .boxText{
+    font-size: 15px;
+  }
+
+.Box3{
+  height: 500px;
+  width: 700px;
+}
+li{
+  font-size:15px;
+}
+}
+@media screen and(min-width: 300px) and (max-width: 699px) {
+  .Box1{
+    height: 300px;
+    width: 1000px;
+  }
+   .textDroite{
+    font-size: 15px;
+  }
+  li{
+    font-size:15px;
+}
+ .imageGauche2
+ {
+   height: 350px;
+   width: 200px;
+   background-image: url('350x200messages.png');
+ }
+}
+@media screen and (min-width: 700px) and (max-width: 991px) {
+  .Box1{
+    height: 500px;
+    width: 700px;
+    
+  }
+  .imageGauche1{
+    background-image: url('350x200-meet.png');
+  }
+   .textDroite{
+    font-size: 15px;
+  }
+  .Box2{
+    height: 500px;
+    width: 700px;
+  }
+  .boxText{
+    font-size: 15px;
+  }
+
+.Box3{
+  height: 500px;
+  width: 700px;
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+}

@@ -1,0 +1,98 @@
+* + * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+.Banner{
+  display: flex;
+  height: 120px;
+  width: 100%;
+  /*background-color: cornflowerblue;*/
+  filter: drop-shadow(0px 3px 2px rgba(0, 0, 0, 0.161));
+  border-bottom: 2px solid;
+  border-color: rgb(112, 112, 112);
+  
+}
+.logo{
+  display: block;
+  width: 120px;
+  height: 120px;
+  /*background-color: brown;*/
+}
+li{
+  font-size:30px;
+  width: auto;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+}
+ul{
+  display: flex;
+  list-style: none; 
+  flex-direction: row;
+  justify-content: space-around;
+  height: 120px;
+ 
+  
+}
+.list{
+  height: 120px;
+  width: 1000px;
+}
+#Rectangle {
+  opacity: 0.243;
+}
+.Rectangle {
+  filter: drop-shadow(0px 3px 2px rgba(0, 0, 0, 0.161));
+  position: absolute;
+  overflow: visible;
+  width: 1926px;
+  height: 126px;
+  left: 0px;
+  top: 0px;
+}
+.Presentation{
+  display: flex;
+height: 750px;
+width: 1500px;
+border: 2px solid;
+border-color: orange;
+border-radius: 30px;
+margin: 100px 100px 100px 300px;
+
+}
+.Image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 750px;
+  width: 1500px;
+}
+
+.Gauche{
+  height: 750px;
+  width: 750px;
+  max-width: 100%;
+  max-height:100%;
+  background-image: url("Gauche.png") ;
+}
+
+.Droite{
+  height: 750px;
+  width: 750px;
+  max-width: 100%;
+  max-height:100%;
+  background-image: url("Droite.png") ;
+}
+@media screen and (max-width: 699px) {
+  li{
+    font-size:15px;
+}
+}
+@media screen and (min-width: 700px) and (max-width: 991px) {
+
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {}

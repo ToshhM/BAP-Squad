@@ -1,0 +1,179 @@
+* + * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.ref-main {
+    height: 100vh;
+    background-image: url("Trace-Squad.svg");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: contain;
+}
+.Banner{
+    display: flex;
+    height: 120px;
+    width: 100%;
+    /*background-color: cornflowerblue;*/
+    filter: drop-shadow(0px 3px 2px rgba(0, 0, 0, 0.161));
+    border-bottom: 2px solid;
+    border-color: rgb(112, 112, 112);
+    
+}
+.logo{
+    display: block;
+    width: 120px;
+    height: 120px;
+    /*background-color: brown;*/
+}
+li{
+    font-size:30px;
+    width: auto;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+}
+ul{
+    display: flex;
+    list-style: none; 
+    flex-direction: row;
+    justify-content: space-around;
+    height: 120px;
+   
+    
+}
+.list{
+    height: 120px;
+    width: 1000px;
+}
+#Rectangle {
+    opacity: 0.243;
+}
+.Rectangle {
+    filter: drop-shadow(0px 3px 2px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 1926px;
+    height: 126px;
+    left: 0px;
+    top: 0px;
+}
+.Text
+{
+display: flex;
+height: 100%;
+text-align: left;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 70px;
+color: rgba(0,0,0,1);
+justify-content: center;
+align-content: center;
+flex-direction: column;
+}
+.Text p {
+    margin: 50px;
+}
+.download{
+    display: flex;
+    height: 100px;
+    margin-left: 150px;
+}
+.apple{
+    width: 353px;
+    height: 100px;
+    background-image: url("apple100.png");
+    background-repeat: no-repeat;
+}
+.android{
+    height: 100px;
+    width: 353px;
+    background-image:url("android353x100.png") ;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width: 576px) {
+    .ref-main{
+        background-image: none;
+    }
+    li{
+        font-size:15px;
+    }
+    .Text{
+        font-size: 25px;
+        height: 50%;
+    }
+    .image{
+        height: 100;
+    }
+    .image_secret{
+        height: 500px;
+        width: 500px;
+        background-image: url("Interview_500.png");
+    }
+    .secret{
+        display: flex;
+        height: 250px;
+        align-content: center;
+        justify-content: center;
+        
+    }
+    .Text p{
+        margin: 0px;
+        text-align: center;
+    }
+    .android{
+        width: 200px;
+        background-image: url("android200x100.png");
+    }
+    .apple{
+        background-image: url("apple200x100.png");
+        width: 200px;
+    }
+    
+}
+
+@media screen and (min-width: 577px) and (max-width: 991px) {
+.ref-main{
+    background-image: none;
+}
+.Text{
+    font-size: 50px;
+    text-align: center;
+}
+.Text p {
+text-align: center;
+}
+.image{
+    height: 100px;
+}
+.image_secret{
+    height: 500px;
+    width: 500px;
+    background-image: url("Interview_500.png");
+}
+.secret{
+    display: flex;
+    height: 500px;
+    align-content: center;
+    justify-content: center;
+    
+}
+.android{
+    width: 353px;
+    background-image: url("android353x100.png");
+}
+.apple{
+    background-image: url("apple353x100.png");
+    width: 353px;
+}
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+}
+/* display none dans le html and switch dans les media queries lorsqu'il y a une taille bien défni */
